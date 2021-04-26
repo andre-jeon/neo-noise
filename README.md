@@ -1,2 +1,2 @@
 # neosound.live
-sounds created and curated by Néo-Manhattan®
+Sounds created and curated by Néo-Manhattan®.
