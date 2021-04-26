@@ -1,2 +1,2 @@
 # neosound.live
-Sounds created and curated by Néo-Manhattan®.
+Immersive experiences with sounds created and curated by Néo-Manhattan®.
