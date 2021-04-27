@@ -1,4 +1,10 @@
-# neosound.live
+# neo-sound.live
+Néo-Sound
+# neo-noise.com
+Néo-Noise
+# neo-dio.com
+Néo-Dio
+
 Noises created and curated by Néo-Manhattan®
 
 Today's Agenda 4-27-21
