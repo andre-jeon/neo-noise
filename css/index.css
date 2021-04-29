@@ -1,13 +1,26 @@
 * {
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-    border:1px solid grey;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
 }
 
 .nav {
-    display: flex;
-    padding: 1%;
-    justify-content: space-between;
+  display: flex;
+  padding: 1%;
+  justify-content: space-between;
+}
+
+.main_page {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+    text-align: right;
+}
+
+footer a {
+    color: black;
 }
