@@ -11,3 +11,16 @@
   padding: 1%;
   justify-content: space-between;
 }
+
+.main_page {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: right;
+}
+
+footer a {
+  color: black;
+}
