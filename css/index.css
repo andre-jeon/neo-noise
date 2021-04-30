@@ -3,7 +3,8 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
+  background-color: ghostwhite;
 }
 
 .nav {
@@ -49,7 +50,6 @@ footer a {
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
 }
 
 .popup .close-btn {
