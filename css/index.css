@@ -3,26 +3,48 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
+  background-color: ghostwhite;
 }
 
+/* body {
+  background-image: url("../img/new-york-city-subway-station-shutterstock.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%; */
+
 .nav {
-  display: flex;
+  text-align: right;
   padding: 1%;
   justify-content: space-between;
 }
 
 .main_page {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 5% 2%;
+}
+.main_page div {
+  width: 33%;
 }
 
 footer {
   text-align: right;
+  padding: 0% 1%;
 }
 
 footer a {
   color: black;
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.left div {
+  width: 70%;
+  height: auto;
+  margin: 5% 0%;
 }
 
 /* pop up */
@@ -42,14 +64,13 @@ footer a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  background: #fff;
+  background: ghostwhite;
   width: 500px;
   height: 250px;
   z-index: 2;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
 }
 
 .popup .close-btn {
@@ -60,7 +81,7 @@ footer a {
   width: 30px;
   height: 30px;
   background: #222;
-  color: #fff;
+  color: ghostwhite;
   font-size: 25px;
   font-weight: 600;
   line-height: 30px;
@@ -83,5 +104,8 @@ button {
   border: none;
   color: #222;
   font-weight: 600;
-  background: #fff;
+}
+
+.content h1 {
+  padding-bottom: 3%;
 }
