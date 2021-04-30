@@ -10,9 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <title>néo-noise</title>
+  </head>
+  <body>
     <div class="nav">
-      <h1>Noises created and curated by Néo-Manhattan®</h1>
-      <h1><button onclick="togglePopup()">ABOUT</button></h1>
+      <h1><button onclick="togglePopup()">about</button></h1>
     </div>
     <!-- pop up -->
     <div class="popup" id="popup-1">
@@ -24,30 +25,45 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
           aspernatur laborum rem sed laudantium excepturi veritatis voluptatum
           architecto, dolore quaerat totam officiis nisi animi accusantium alias
-          inventore nulla atque debitis.
+          inventore nulla atque debitis. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Ex unde praesentium cupiditate quasi provident
+          fugiat quia! Nihil ex at, dolore dolorum rerum ipsa qui veritatis
+          vitae velit, mollitia nemo quos!
         </p>
       </div>
     </div>
     <!-- pop up ends -->
-  </head>
-  <body>
     <div class="main_page">
-      <iframe
-        src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9ilnsFNjAAc"
-        width="300"
-        height="380"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe>
-      <img
-        src="img/new-york-city-subway-station-shutterstock.jpeg"
-        alt="NYC Subway, 42nd Street"
-      />
-      <audio loop controls src="noise/shake!.mp3">
-        Your browser does not support the
-        <code>audio</code> element.
-      </audio>
+      <div class="left">
+        <div>
+          <h1>
+            <p>Noises created</p>
+            <p>and curated</p>
+            <p>by Néo-Manhattan®</p>
+          </h1>
+        </div>
+        <div>
+          <iframe
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9ilnsFNjAAc"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </div>
+      <div class="imageDiv">
+        <img
+          src="img/favpng_train-rail-transport-city-locker-rapid-transit-drawing.png"
+        />
+      </div>
+      <div class="audioDiv">
+        <audio loop controls src="noise/shake!.mp3">
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
+      </div>
     </div>
 
     <footer>
