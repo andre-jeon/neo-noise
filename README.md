@@ -16,8 +16,8 @@ Noises created and curated by Néo-Manhattan®
 
 
 [Release 1]
-1. Button that plays and pauses the audio(No built-in browser)
-2. Volume range
+1. Button that plays and pauses the audio(No built-in browser) [X]
+2. Volume range [X}
 3. Dark Mode
 
 [Release 2]
