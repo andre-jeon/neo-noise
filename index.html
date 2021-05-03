@@ -59,10 +59,15 @@
         />
       </div>
       <div class="audioDiv">
-        <audio loop controls src="noise/shake!.mp3">
+        <audio id="audioFile" loop src="noise/shake!.mp3">
           Your browser does not support the
           <code>audio</code> element.
         </audio>
+        <button onclick="toggleAudio()" id="playButton">PLAY ME</button>
+        <form>
+          <input id="volume" type="range" min="0" max="1" step="0.05" />
+        </form>
+        <button onclick="mute()"" id="muteButton" >Mute</button>
       </div>
     </div>
 
