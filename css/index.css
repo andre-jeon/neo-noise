@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
   max-width: 100%;
@@ -45,6 +44,24 @@ footer a {
   width: 70%;
   height: auto;
   margin: 5% 0%;
+}
+.imgageDiv {
+  margin: auto;
+}
+
+.audioDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.audioDiv div {
+  text-align: center;
+  width: 80%;
+}
+.audioDiv div form input {
+  width: 90%;
+  padding: 10% 0%;
 }
 
 /* pop up */
@@ -98,7 +115,7 @@ footer a {
   transform: translate(-50%, -50%) scale(1);
 }
 
-button {
+.nav button {
   padding: 15px;
   font-size: 18px;
   border: none;
