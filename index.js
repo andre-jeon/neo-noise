@@ -23,9 +23,9 @@ volume.addEventListener("click", (event) => {
   console.log(`volume changed to ${volume.value}`);
 });
 //Mute toggle
-function mute() {
-  if (audioFile.volume > 0) {
-    audioFile.volume = 0;
-    volume.value = 0;
-  }
-}
+// function mute() {
+//   if (audioFile.volume > 0) {
+//     audioFile.volume = 0;
+//     volume.value = 0;
+//   }
+// }
