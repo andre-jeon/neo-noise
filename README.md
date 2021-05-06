@@ -17,8 +17,7 @@ Noises created and curated by Néo-Manhattan®
 
 [Release 1]
 1. Button that plays and pauses the audio(No built-in browser) [X]
-2. Volume range [X}
-3. Dark Mode
+2. Volume range [X]
 
 [Release 2]
 1. Fonts
@@ -32,6 +31,7 @@ Noises created and curated by Néo-Manhattan®
 2. Buy URL (neo-noise.com)
 3. Record/curate sounds
 4. Work on the playlist
+5. Dark Mode
 
 [Release 4]
 1. Flex on IG & TikTok
