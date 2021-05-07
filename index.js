@@ -6,16 +6,22 @@ function togglePopup() {
 
 //AUDIO 1
 const audioFile1 = document.getElementById("audioFile1");
+const play1 = document.querySelector("#play");
+const pause1 = document.querySelector("#pause");
 let state1 = false;
 
 function toggleAudio1() {
   if (state1 == false) {
     audioFile1.play();
     state1 = true;
+    play1.classList.toggle("off");
+    pause1.classList.toggle("off");
     console.log("It is now playing audio 1");
   } else {
     audioFile1.pause();
     state1 = false;
+    play1.classList.toggle("off");
+    pause1.classList.toggle("off");
     console.log("It has now paused on audio 1");
   }
 }
