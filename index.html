@@ -64,7 +64,10 @@
             Your browser does not support the
             <code>audio</code> element.
           </audio>
-          <button onclick="toggleAudio1()">PLAY ME</button>
+          <button onclick="toggleAudio1()">
+            <img id="play" src="./icons/play-button.svg" alt="play" />
+            <img class="off" id="pause" src="./icons/pause.svg" alt="pause" />
+          </button>
           <form>
             <input id="volume1" type="range" min="0" max="1" step="0.05" />
           </form>
