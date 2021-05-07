@@ -15,30 +15,28 @@ Noises created and curated by Néo-Manhattan®
 4. (Bonus) Got the bonus working [X]
 
 
-[Release 1]
+[Release 1] [X]
 1. Button that plays and pauses the audio(No built-in browser) [X]
 2. Volume range [X]
-
-[MVP]
-1. Re-Do flexbox(N)
-2. 3 Different audios working(N)
-
-3. Styling the buttons and the volume bars(A)
-4. Find 3 different audio and replace the current one(A)
+3. Re-Do flexbox(N) [X]
+4. 3 Different audios working(N) [X]
+5. Styling the buttons and the volume bars(A) [X]
+6. Find 3 different audio and replace the current one(A) [X]
 
 [Release 2]
-1. Fonts
-2. Center design
-3. Color scheme
-4. Audio content
-5. Ko-Fi Widget
+1. Make the volume bar thinner and get rid of the blue shit 
+2. Fonts
+3. Center design (Commission work by Nam's GF)
+4. Color scheme
+5. 5 Audio contents
+6. Ko-Fi Widget
 
 [Release 3]
 1. Deploy
 2. Buy URL (neo-noise.com)
-3. Record/curate sounds
-4. Work on the playlist
 5. Dark Mode
 
-[Release 4]
+[Stretch]
 1. Flex on IG & TikTok
+2. Record/curate sounds
+3. Work on the playlist

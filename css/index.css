@@ -48,8 +48,15 @@ footer a {
   height: auto;
   margin: 5% 0%;
 }
-.imgageDiv {
+.imageDiv {
   margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.imageDiv img {
+  height: 75vh;
+  width: auto;
 }
 
 .audioDiv {
@@ -170,7 +177,7 @@ input[type="range"]::-webkit-slider-thumb {
   margin-top: -14px;
 }
 input[type="range"]:focus::-webkit-slider-runnable-track {
-  background: #367ebd;
+  background: #b6c0c9;
 }
 input[type="range"]::-moz-range-track {
   width: 100%;
