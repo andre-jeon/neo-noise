@@ -6,8 +6,8 @@ function togglePopup() {
 
 //AUDIO 1
 const audioFile1 = document.getElementById("audioFile1");
-const play1 = document.querySelector("#play");
-const pause1 = document.querySelector("#pause");
+const play1 = document.querySelector("#play1");
+const pause1 = document.querySelector("#pause1");
 let state1 = false;
 
 function toggleAudio1() {
@@ -34,16 +34,22 @@ volume1.addEventListener("click", (event) => {
 
 //AUDIO 2
 const audioFile2 = document.getElementById("audioFile2");
+const play2 = document.querySelector("#play2");
+const pause2 = document.querySelector("#pause2");
 let state2 = false;
 
 function toggleAudio2() {
   if (state2 == false) {
     audioFile2.play();
     state2 = true;
+    play2.classList.toggle("off");
+    pause2.classList.toggle("off");
     console.log("It is now playing audio 2");
   } else {
     audioFile2.pause();
     state2 = false;
+    play2.classList.toggle("off");
+    pause2.classList.toggle("off");
     console.log("It has now paused on audio 2");
   }
 }
@@ -56,16 +62,22 @@ volume2.addEventListener("click", (event) => {
 
 //AUDIO 3
 const audioFile3 = document.getElementById("audioFile3");
+const play3 = document.querySelector("#play3");
+const pause3 = document.querySelector("#pause3");
 let state3 = false;
 
 function toggleAudio3() {
   if (state3 == false) {
     audioFile3.play();
     state3 = true;
+    play3.classList.toggle("off");
+    pause3.classList.toggle("off");
     console.log("It is now playing audio 3");
   } else {
     audioFile3.pause();
     state3 = false;
+    play3.classList.toggle("off");
+    pause3.classList.toggle("off");
     console.log("It has now paused on audio 3");
   }
 }
