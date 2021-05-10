@@ -10,9 +10,9 @@
   background-image: url("../img/new-york-city-subway-station-shutterstock.jpeg");
   background-repeat: no-repeat;
   background-size: 100%; */
-iframe {
+/* iframe {
   border-radius: 7px;
-}
+} */
 
 .nav {
   text-align: right;
@@ -23,11 +23,11 @@ iframe {
 .main_page {
   display: flex;
   justify-content: space-evenly;
-  padding: 5% 2%;
+  margin: 2.8% 0.5%;
 }
-.main_page div {
+/* .main_page div {
   width: 33%;
-}
+} */
 
 footer {
   text-align: right;
@@ -42,16 +42,17 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  width: 20%;
 }
 .left div {
-  width: 70%;
+  width: 100%;
   height: auto;
   margin: 5% 0%;
 }
 .imageDiv {
-  margin: auto;
   display: flex;
   justify-content: center;
+  width: 50%;
 }
 
 .imageDiv img {
@@ -64,6 +65,7 @@ footer a {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  width: 25%;
 }
 .audioDiv div {
   text-align: center;
@@ -157,24 +159,26 @@ input[type="range"]:focus {
   outline: none;
 }
 input[type="range"]::-webkit-slider-runnable-track {
+  /* deals with the line */
   width: 100%;
-  height: 8.4px;
+  height: 2.4px;
   cursor: pointer;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
   background: #66696c;
   border-radius: 1.3px;
-  border: 0.2px solid #010101;
+  border: 1.4px solid #010101;
 }
 input[type="range"]::-webkit-slider-thumb {
+  /* actual ball thing for the scroll */
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  border: 1px solid #000000;
-  height: 36px;
+  border: 0.5px solid #000000;
+  height: 20px;
   width: 16px;
-  border-radius: 3px;
+  border-radius: 50px;
   background: #ffffff;
   cursor: pointer;
   -webkit-appearance: none;
-  margin-top: -14px;
+  margin-top: -10px;
 }
 input[type="range"]:focus::-webkit-slider-runnable-track {
   background: #b6c0c9;
