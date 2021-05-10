@@ -69,18 +69,30 @@ footer a {
 }
 .audioDiv div {
   text-align: center;
-  width: 80%;
+  width: 90%;
 }
 .audioDiv div form input {
-  width: 75%;
+  width: 100%;
   padding: 2% 0%;
 }
 .audioDiv button {
   border: none;
 }
-
+.track {
+  display: flex;
+  justify-content: space-between;
+}
+.track form {
+  width: 80%;
+  display: flex;
+  align-content: center;
+}
+.track button {
+  width: 20%;
+}
 button img {
-  width: 18%;
+  height: 40%;
+  width: auto;
 }
 button .off {
   display: none;
