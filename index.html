@@ -16,8 +16,14 @@
       <img src="./img/neo-noise.svg" />
       <div class="links">
         <h1><button onclick="togglePopup()">about</button></h1>
-        <h1><button href = "https://www.neo-manhattan.com/" target="_blank">store</button></h1>
-        <h1><button href = "https://soundcloud.com/andrejeon" target="_blank">soundcloud</button></h1>
+        <form action="https://www.neo-manhattan.com" method="get" target="_blank">
+          <button type="submit">store</button>
+       </form>
+       <form action="https://soundcloud.com/andrejeon" method="get" target="_blank">
+        <button type="submit">soundcloud</button>
+     </form>
+        <!-- <h1><button onclick="window.location.href='https://www.neo-manhattan.com'">store</button></h1>
+        <h1><button onclick="window.location.href='https://soundcloud.com/andrejeon'">soundcloud</button></h1> -->
         <h1><button onclick="togglePopup2()">connect</button></h1>
       </div>
     </div>
