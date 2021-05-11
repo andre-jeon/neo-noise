@@ -18,6 +18,16 @@
   text-align: right;
   padding: 1%;
   justify-content: space-between;
+  display: flex;
+}
+
+.links {
+  display: flex;
+}
+
+.nav img {
+  width: 10%;
+  height: auto;
 }
 
 .main_page {
@@ -117,7 +127,7 @@ button .off {
   transform: translate(-50%, -50%) scale(0);
   background: ghostwhite;
   width: 500px;
-  height: 250px;
+  height: 500px;
   z-index: 2;
   text-align: center;
   padding: 20px;
