@@ -3,35 +3,58 @@
   margin: 0;
   max-width: 100%;
   /* border: 1px solid grey; */
-  background-color: ghostwhite;
 }
 
-/* body {
-  background-image: url("../img/new-york-city-subway-station-shutterstock.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%; */
-/* iframe {
-  border-radius: 7px;
-} */
+body {
+  background-color: ghostwhite;
+}
 
 .nav {
   text-align: right;
   padding: 1%;
   justify-content: space-between;
+  display: flex;
+}
+button {
+  background-color: ghostwhite;
 }
 
+.links {
+  display: flex;
+}
+
+.nav img {
+  width: 10%;
+  height: auto;
+}
+.socialicons {
+  width: 7%;
+  height: auto;
+  margin: 0% 2%;
+}
+.socials {
+  margin: 5% 0%;
+  display: flex;
+  justify-content: center;
+}
 .main_page {
   display: flex;
   justify-content: space-evenly;
-  margin: 2.8% 0.5%;
+  margin: 2.5% 0.2%;
 }
 /* .main_page div {
   width: 33%;
 } */
 
 footer {
-  text-align: right;
-  padding: 0% 1%;
+  /* text-align: right; */
+  padding: 0.5vh 1.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h4 {
+  text-align: bottom;
 }
 
 footer a {
@@ -66,6 +89,7 @@ footer a {
   align-items: center;
   justify-content: space-around;
   width: 25%;
+  padding: 6% 0%;
 }
 .audioDiv div {
   text-align: center;
@@ -97,6 +121,9 @@ button img {
 button .off {
   display: none;
 }
+.content h1 {
+  padding-bottom: 1%;
+}
 
 /* pop up */
 .popup .overlay {
@@ -116,8 +143,8 @@ button .off {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background: ghostwhite;
-  width: 500px;
-  height: 250px;
+  width: 650px;
+  height: 400px;
   z-index: 2;
   text-align: center;
   padding: 20px;
@@ -145,7 +172,7 @@ button .off {
 }
 
 .popup.active .content {
-  transition: all 300ms ease-in-out;
+  transition: all 370ms ease-in-out;
   transform: translate(-50%, -50%) scale(1);
 }
 
@@ -157,8 +184,63 @@ button .off {
   font-weight: 600;
 }
 
-.content h1 {
-  padding-bottom: 3%;
+/* pop up 2  */
+.popup2 .overlay2 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
+}
+
+.popup2 .content2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: ghostwhite;
+  width: 900px;
+  height: 250px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.popup2 .close-btn2 {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background: #222;
+  color: ghostwhite;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.popup2.active .overlay2 {
+  display: block;
+}
+
+.popup2.active .content2 {
+  transition: all 370ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.nav button2 {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  color: #222;
+  font-weight: 600;
 }
 
 /* Input slider styling */
