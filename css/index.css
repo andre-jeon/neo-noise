@@ -45,7 +45,7 @@ button {
 .main_page {
   display: flex;
   justify-content: space-evenly;
-  margin: 2.5% 0.2%;
+  margin: 1% 0.2%;
 }
 /* .main_page div {
   width: 33%;
@@ -56,7 +56,7 @@ footer {
   padding: 0.5vh 1.5%;
   display: flex;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items: flex-end;
 }
 
 footer a {
