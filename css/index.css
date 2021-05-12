@@ -21,14 +21,19 @@ button {
 
 .links {
   display: flex;
+  width: 23%;
+}
+
+.empty {
+  width: 23%;
 }
 
 .nav img {
-  width: 10%;
+  width: 17%;
   height: auto;
 }
 .socialicons {
-  width: 7%;
+  width: 8%;
   height: auto;
   margin: 0% 2%;
 }
@@ -51,10 +56,7 @@ footer {
   padding: 0.5vh 1.5%;
   display: flex;
   justify-content: space-between;
-}
-
-footer h4 {
-  text-align: bottom;
+  align-items:flex-end;
 }
 
 footer a {
@@ -202,7 +204,7 @@ button .off {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background: ghostwhite;
-  width: 900px;
+  width: 650px;
   height: 250px;
   z-index: 2;
   text-align: center;
@@ -248,6 +250,7 @@ input[type="range"] {
   -webkit-appearance: none;
   margin: 18px 0;
   width: 100%;
+  background: ghostwhite;
 }
 input[type="range"]:focus {
   outline: none;
