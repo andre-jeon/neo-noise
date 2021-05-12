@@ -30,8 +30,8 @@ Noises created and curated by Néo-Manhattan®
 4. Color scheme
 5. 5 Audio contents [X]
 6. Ko-Fi Widget [X]
-7. Fix the footer(alight with the widget)
-8. logo in the middle, maybe?
+7. Fix the footer(alight with the widget) [X]
+8. logo in the middle, maybe? [X]
 9. left statement smaller font size
 
 [Release 3]
