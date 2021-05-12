@@ -8,16 +8,13 @@
 body {
   background-color: ghostwhite;
 }
-a {
-  text-decoration: none;
-  color: #222;
-}
 
 .nav {
   text-align: right;
   padding: 1%;
   justify-content: space-between;
   display: flex;
+  align-items: center;
 }
 .nav p {
   font-size: 1.3rem;
@@ -33,6 +30,11 @@ button {
   display: flex;
   width: 30%;
   justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  color: #222;
 }
 
 .empty {
