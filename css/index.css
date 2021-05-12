@@ -1,14 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: Bodoni;
+  src: url(/fonts/BodoniStd/BodoniStd.otf);
+}
+@font-face {
+  font-family: Birch;
+  src: url(/fonts/BirchStd.otf);
+}
+
 * {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  /* border: 1px solid grey; */
 }
-
 body {
   background-color: ghostwhite;
+  font-family: Bodoni;
 }
-
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+p {
+  font-size: 1.2rem;
+}
+.left p {
+  font-size: 2rem;
+}
 .nav {
   text-align: right;
   padding: 1%;
@@ -29,7 +180,7 @@ button {
 .links {
   display: flex;
   width: 30%;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .links a {
@@ -42,8 +193,9 @@ button {
 }
 
 .nav img {
-  width: 17%;
+  width: 15%;
   height: auto;
+  margin-right: 5%;
 }
 .socialicons {
   width: 8%;
@@ -57,8 +209,8 @@ button {
 }
 .main_page {
   display: flex;
-  justify-content: space-evenly;
-  margin: 1% 0.5%;
+  justify-content: space-between;
+  margin: 0.8% 1.5%;
 }
 /* .main_page div {
   width: 33%;
@@ -66,7 +218,7 @@ button {
 
 footer {
   /* text-align: right; */
-  padding: 0.5vh 1.5%;
+  padding: 0.5% 2%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -78,15 +230,14 @@ footer a {
 
 .left {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 20%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
 }
-.left div {
-  width: 100%;
-  height: auto;
-  margin: 5% 0%;
+.spotify {
+  height: 55%;
 }
+
 .imageDiv {
   display: flex;
   justify-content: center;
@@ -141,6 +292,9 @@ button .off {
 }
 
 /* pop up */
+.content p {
+  width: 92%;
+}
 .popup .overlay {
   position: fixed;
   top: 0px;
@@ -159,11 +313,15 @@ button .off {
   transform: translate(-50%, -50%) scale(0);
   background: ghostwhite;
   width: 650px;
-  height: 400px;
+  height: 450px;
   z-index: 2;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .popup .close-btn {
@@ -209,8 +367,8 @@ button .off {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background: ghostwhite;
-  width: 650px;
-  height: 250px;
+  width: 610px;
+  height: 220px;
   z-index: 2;
   text-align: center;
   padding: 20px;
