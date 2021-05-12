@@ -24,12 +24,15 @@ Noises created and curated by Néo-Manhattan®
 6. Find 3 different audio and replace the current one(A) [X]
 
 [Release 2]
-1. Make the volume bar thinner and get rid of the blue shit 
+1. Make the volume bar thinner and get rid of the blue shit [X]
 2. Fonts
 3. Center design (Commission work by Nam's GF)
 4. Color scheme
-5. 5 Audio contents
-6. Ko-Fi Widget
+5. 5 Audio contents [X]
+6. Ko-Fi Widget [X]
+7. Fix the footer(alight with the widget)
+8. logo in the middle, maybe?
+9. left statement smaller font size
 
 [Release 3]
 1. Deploy
