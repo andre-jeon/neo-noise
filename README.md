@@ -25,14 +25,14 @@ Noises created and curated by Néo-Manhattan®
 
 [Release 2]
 1. Make the volume bar thinner and get rid of the blue shit [X]
-2. Fonts
-3. Center design (Commission work by Nam's GF)
-4. Color scheme
+2. Fonts [X]
+3. Center design [X]
+4. Color scheme [X]
 5. 5 Audio contents [X]
 6. Ko-Fi Widget [X]
 7. Fix the footer(alight with the widget) [X]
 8. logo in the middle, maybe? [X]
-9. left statement smaller font size
+9. left statement smaller font size [X]
 
 [Release 3]
 1. Deploy
