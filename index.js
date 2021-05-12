@@ -4,7 +4,11 @@ function togglePopup() {
 function togglePopup2() {
   document.getElementById("popup-2").classList.toggle("active");
 }
-
+//adding even listeners for navbar
+const about = document.querySelector(".about");
+about.addEventListener("click", togglePopup);
+const connect = document.querySelector(".connect");
+connect.addEventListener("click", togglePopup2);
 //Toggling the audio to play and pause
 
 //AUDIO 1
