@@ -235,6 +235,9 @@ footer {
 footer a {
   color: black;
 }
+footer h4 {
+  margin-left: 1.2%;
+}
 
 .left {
   display: flex;
