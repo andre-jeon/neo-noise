@@ -153,6 +153,9 @@
   p {
     font-size: 1.5rem;
   }
+  a {
+    text-decoration: none;
+  }
   iframe {
     width: 60vw;
     height: 50vh;
@@ -163,6 +166,23 @@
   }
   .left p {
     font-size: 2.8rem;
+  }
+  .empty {
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+  }
+  .empty button {
+    font-size: 1.1rem;
+    border: none;
+    font-family: Bodoni;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+  }
+  .empty button:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    cursor: pointer;
   }
   .nav {
     display: flex;
@@ -187,17 +207,22 @@
   .links p {
     width: 80%;
     text-align: center;
+    transition: all 300ms ease-in-out;
   }
   .links a {
     text-decoration: none;
     color: #222;
-  }
-  .links p {
     transition: all 300ms ease-in-out;
   }
+
   .links p:hover {
     opacity: 0.8;
     transform: scale(1.05);
+    cursor: pointer;
+  }
+  .links a:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
     cursor: pointer;
   }
   .socials {
@@ -255,6 +280,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  footer a {
+    color: black;
+    text-decoration: underline;
   }
   footer div {
     width: 90%;
@@ -472,4 +501,33 @@
   input[type="range"]:focus::-ms-fill-upper {
     background: #367ebd;
   }
+}
+.darkmode {
+  background-color: #383a3c;
+  color: ghostwhite;
+}
+.darkmode button {
+  color: ghostwhite;
+  background-color: #383a3c;
+}
+.darkmode a {
+  color: ghostwhite;
+}
+.darkmode input[type="range"] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 100%;
+  background: #383a3c;
+}
+.darkmode input[type="range"]::-webkit-slider-thumb {
+  /* actual ball thing for the scroll */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0.5px solid #000000;
+  height: 20px;
+  width: 8px;
+  border-radius: 100px;
+  background: #505050;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -10px;
 }

@@ -151,10 +151,9 @@ volume5.addEventListener("click", (event) => {
   console.log(`volume changed to ${volume5.value}`);
 });
 
-//Mute toggle
-// function mute() {
-//   if (audioFile.volume > 0) {
-//     audioFile.volume = 0;
-//     volume.value = 0;
-//   }
-// }
+const body = document.querySelector("body");
+const darkbutton = document.querySelector(".darkbutton");
+darkbutton.addEventListener("click", () => {
+  console.log("darkmode!");
+  body.classList.toggle("darkmode");
+});
