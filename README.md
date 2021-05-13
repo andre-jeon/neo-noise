@@ -37,9 +37,19 @@ Noises created and curated by Néo-Manhattan®
 [Release 3]
 1. Deploy
 2. Buy URL (neo-noise.com)
-5. Dark Mode
+5. Dark Mode [X]
 
 [Stretch]
 1. Flex on IG & TikTok
 2. Record/curate sounds
 3. Work on the playlist
+
+Track 1 : Subway coming in and going out + Door opening and closing + Announcements(bleed)
+
+Track 2 : People walking(staircase)
+
+Track 3 : New Yorker Talking(Jay-Z or any notable New York figure Easter Egg)
+
+Track 4 : Ticketing Sound
+
+Track 5 : Announcements(YouTube)
