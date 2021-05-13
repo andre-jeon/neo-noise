@@ -158,6 +158,10 @@
   p {
     font-size: 1.2rem;
   }
+  a {
+    text-decoration: none;
+    color: black;
+  }
   iframe {
     width: 18vw;
     height: 38vh;
@@ -174,7 +178,7 @@
   }
   .nav p {
     font-size: 1.3rem;
-    color: #222;
+    /* color: #222; */
     font-weight: 900;
     padding: 0% 5%;
   }
@@ -190,19 +194,35 @@
   .links p {
     transition: all 300ms ease-in-out;
   }
+  .links a {
+    transition: all 300ms ease-in-out;
+  }
   .links p:hover {
     opacity: 0.7;
     transform: scale(1.1);
     cursor: pointer;
   }
-
-  .links a {
-    text-decoration: none;
-    color: #222;
+  .links a:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
   .empty {
     width: 30%;
+    text-align: left;
+  }
+  .empty button {
+    font-size: 1rem;
+    border: none;
+    font-family: Bodoni;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+  }
+  .empty button:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
   .nav img {
@@ -236,10 +256,10 @@
     justify-content: space-between;
     align-items: flex-end;
   }
-
   footer a {
-    color: black;
+    text-decoration: underline;
   }
+
   footer h4 {
     margin-left: 1.2%;
   }
@@ -439,7 +459,7 @@
   input[type="range"]::-webkit-slider-runnable-track {
     /* deals with the line */
     width: 100%;
-    height: 2.4px;
+    height: 3px;
     cursor: pointer;
     box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
     background: #66696c;
@@ -450,13 +470,13 @@
     /* actual ball thing for the scroll */
     box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
     border: 0.5px solid #000000;
-    height: 20px;
-    width: 8px;
+    height: 40px;
+    width: 12px;
     border-radius: 100px;
     background: #ffffff;
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -10px;
+    margin-top: -20px;
   }
   input[type="range"]:focus::-webkit-slider-runnable-track {
     background: #b6c0c9;
@@ -515,4 +535,60 @@
   input[type="range"]:focus::-ms-fill-upper {
     background: #367ebd;
   }
+}
+
+/* dark mode code */
+
+.darkmode {
+  background-color: #383a3c;
+  color: ghostwhite;
+}
+.darkmode button {
+  color: ghostwhite;
+  background-color: #383a3c;
+}
+.darkmode a {
+  color: ghostwhite;
+}
+.darkmode input[type="range"] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 100%;
+  background: #383a3c;
+}
+.darkmode input[type="range"]::-webkit-slider-thumb {
+  /* actual ball thing for the scroll */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0.5px solid #000000;
+  height: 20px;
+  width: 8px;
+  border-radius: 100px;
+  background: #505050;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -10px;
+}
+.darkmode .content {
+  color: black;
+}
+.darkmode .content a {
+  color: black;
+}
+.darkmode .content p {
+  color: black;
+}
+.darkmode .content2 {
+  color: black;
+}
+.darkmode .content2 a {
+  color: black;
+}
+.darkimg {
+  display: none;
+}
+.darkmode .lightimg {
+  display: none;
+}
+.darkmode .darkimg {
+  display: inline-block;
 }
