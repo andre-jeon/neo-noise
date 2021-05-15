@@ -260,11 +260,11 @@
     margin-top: 12%;
   }
   button img {
-    width: 30%;
+    width: 25%;
     height: auto;
     cursor: pointer;
-    margin: 20% 0%;
-    margin-bottom: 4%;
+    margin: 5% 0%;
+    margin-bottom: 1%;
   }
   button .off {
     display: none;
