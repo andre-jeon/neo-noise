@@ -263,7 +263,7 @@
     width: 25%;
     height: auto;
     cursor: pointer;
-    margin: 45% 0%;
+    padding: 45% 0%;
     margin-bottom: 1%;
   }
   button .off {
