@@ -246,6 +246,9 @@
   .main_page div {
     width: 95%;
   }
+  .sounds {
+    margin: 30% 0%;
+  }
   .audioDiv button {
     border: none;
   }
@@ -257,14 +260,13 @@
   .audioDiv p {
     height: 2%;
     font-size: 2rem;
-    margin-top: 12%;
+    margin-bottom: 13%;
   }
   button img {
-    width: 25%;
+    width: 50%;
     height: auto;
     cursor: pointer;
-    padding: 45% 0%;
-    margin-bottom: 1%;
+    margin: 0% 0%;
   }
   button .off {
     display: none;
