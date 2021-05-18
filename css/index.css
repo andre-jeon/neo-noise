@@ -304,6 +304,9 @@
   .audioDiv button {
     border: none;
   }
+  .sounds p {
+    margin-right: 10%;
+  }
   .track {
     display: flex;
     justify-content: space-between;
