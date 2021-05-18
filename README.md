@@ -35,14 +35,17 @@ Noises created and curated by Néo-Manhattan®
 9. left statement smaller font size [X]
 
 [Release 3]
-1. Deploy
-2. Buy URL (neo-noise.com)
+1. Deploy [X]
+2. Buy URL (neo-noise.com) 
 5. Dark Mode [X]
 
 [Stretch]
 1. Flex on IG & TikTok
-2. Record/curate sounds
+2. Record/curate sounds [X]
 3. Work on the playlist
+4. Default track volume level to 15%
+5. Rename the tracks?
+
 
 Track 1 : Subway coming in and going out + Door opening and closing + Announcements(bleed)
 
