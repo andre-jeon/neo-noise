@@ -537,3 +537,10 @@
   -webkit-appearance: none;
   margin-top: -10px;
 }
+
+@media only screen and (max-width: 500px) {
+  .content p {
+    width: 95%;
+    font-size: 0.9rem;
+  }
+}
