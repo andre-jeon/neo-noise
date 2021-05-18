@@ -247,7 +247,7 @@
     width: 95%;
   }
   .sounds {
-    margin: 30% 0%;
+    margin: 40% 0%;
   }
   .audioDiv button {
     border: none;
@@ -261,9 +261,10 @@
     height: 2%;
     font-size: 2rem;
     margin-bottom: 15%;
+    font-size: 2.3rem;
   }
   .form {
-    margin-top: 5%;
+    margin-top: 10%;
   }
   button img {
     width: 32%;
