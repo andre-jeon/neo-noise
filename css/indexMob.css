@@ -260,10 +260,13 @@
   .audioDiv p {
     height: 2%;
     font-size: 2rem;
-    margin-bottom: 13%;
+    margin-bottom: 15%;
+  }
+  .form {
+    margin-top: 5%;
   }
   button img {
-    width: 50%;
+    width: 40%;
     height: auto;
     cursor: pointer;
     margin: 0% 0%;
