@@ -124,32 +124,32 @@ volume4.addEventListener("click", (event) => {
 });
 
 //AUDIO 5
-const audioFile5 = document.getElementById("audioFile5");
-const play5 = document.querySelector("#play5");
-const pause5 = document.querySelector("#pause5");
-let state5 = false;
+// const audioFile5 = document.getElementById("audioFile5");
+// const play5 = document.querySelector("#play5");
+// const pause5 = document.querySelector("#pause5");
+// let state5 = false;
 
-function toggleAudio5() {
-  if (state5 == false) {
-    audioFile5.play();
-    state5 = true;
-    play5.classList.toggle("off");
-    pause5.classList.toggle("off");
-    console.log("It is now playing audio 5");
-  } else {
-    audioFile5.pause();
-    state5 = false;
-    play5.classList.toggle("off");
-    pause5.classList.toggle("off");
-    console.log("It has now paused on audio 5");
-  }
-}
-//Volume
-const volume5 = document.getElementById("volume5");
-volume5.addEventListener("click", (event) => {
-  audioFile5.volume = volume5.value;
-  console.log(`volume changed to ${volume5.value}`);
-});
+// function toggleAudio5() {
+//   if (state5 == false) {
+//     audioFile5.play();
+//     state5 = true;
+//     play5.classList.toggle("off");
+//     pause5.classList.toggle("off");
+//     console.log("It is now playing audio 5");
+//   } else {
+//     audioFile5.pause();
+//     state5 = false;
+//     play5.classList.toggle("off");
+//     pause5.classList.toggle("off");
+//     console.log("It has now paused on audio 5");
+//   }
+// }
+// //Volume
+// const volume5 = document.getElementById("volume5");
+// volume5.addEventListener("click", (event) => {
+//   audioFile5.volume = volume5.value;
+//   console.log(`volume changed to ${volume5.value}`);
+// });
 
 const body = document.querySelector("body");
 const darkbutton = document.querySelector(".darkbutton");
