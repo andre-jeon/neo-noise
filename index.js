@@ -16,6 +16,7 @@ const audioFile1 = document.getElementById("audioFile1");
 const play1 = document.querySelector("#play1");
 const pause1 = document.querySelector("#pause1");
 let state1 = false;
+audioFile1.volume = 0.2;
 
 function toggleAudio1() {
   if (state1 == false) {
@@ -44,6 +45,7 @@ const audioFile2 = document.getElementById("audioFile2");
 const play2 = document.querySelector("#play2");
 const pause2 = document.querySelector("#pause2");
 let state2 = false;
+audioFile2.volume = 0.2;
 
 function toggleAudio2() {
   if (state2 == false) {
@@ -72,6 +74,7 @@ const audioFile3 = document.getElementById("audioFile3");
 const play3 = document.querySelector("#play3");
 const pause3 = document.querySelector("#pause3");
 let state3 = false;
+audioFile3.volume = 0.2;
 
 function toggleAudio3() {
   if (state3 == false) {
@@ -100,6 +103,7 @@ const audioFile4 = document.getElementById("audioFile4");
 const play4 = document.querySelector("#play4");
 const pause4 = document.querySelector("#pause4");
 let state4 = false;
+audioFile4.volume = 0.2;
 
 function toggleAudio4() {
   if (state4 == false) {
@@ -128,6 +132,7 @@ volume4.addEventListener("click", (event) => {
 // const play5 = document.querySelector("#play5");
 // const pause5 = document.querySelector("#pause5");
 // let state5 = false;
+//audioFile5.volume = 0.2;
 
 // function toggleAudio5() {
 //   if (state5 == false) {
