@@ -36,15 +36,24 @@ Noises created and curated by Néo-Manhattan®
 
 [Release 3]
 1. Deploy [X]
-2. Buy URL (neo-noise.com) 
+2. Buy URL (neo-noise.com)[X]
 5. Dark Mode [X]
 
 [Stretch]
 1. Flex on IG & TikTok
-2. Record/curate sounds [X]
-3. Work on the playlist
-4. Default track volume level to 15%
-5. Rename the tracks?
+2. Record/curate sounds[X]
+3. Work on the playlist[X]
+4. Default track volume level to 20%[X]
+5. Rename the tracks?[X]
+
+[Bet]
+*This Bet is Legally binding*
+
+Whoever gets a Software Developer Job + getting his own place FIRST gets exempt from paying the URL fee in 2022.
+(5/18/21 10:28PM EST)
+
+Myeongwon André Jeon
+Namhyuk Woo
 
 
 Track 1 : Subway coming in and going out + Door opening and closing + Announcements(bleed)
