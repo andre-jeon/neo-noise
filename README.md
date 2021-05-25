@@ -40,7 +40,7 @@ Noises created and curated by Néo-Manhattan®
 5. Dark Mode [X]
 
 [Stretch]
-1. Flex on IG & TikTok
+1. Flex on IG [X] 
 2. Record/curate sounds[X]
 3. Work on the playlist[X]
 4. Default track volume level to 20%[X]
